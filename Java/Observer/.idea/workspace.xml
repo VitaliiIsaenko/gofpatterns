@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97bd9853-f655-45fc-b054-8385d1bb1c82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Observer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/javaobserver/CurrentConditionsDisplay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/javaobserver/WeatherData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/javaobserver/WeatherStation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/javaobserver/interfaces/DisplayElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/observer/CurrentConditionsDisplay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/observer/WeatherData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/observer/WeatherStation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/observer/interfaces/DisplayElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/observer/interfaces/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/observer/interfaces/Subject.java" />
-    </list>
+    <list default="true" id="97bd9853-f655-45fc-b054-8385d1bb1c82" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
