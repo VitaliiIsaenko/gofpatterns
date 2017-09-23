@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b30e5232-722b-47cb-a334-282986769f92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/inputdecorator/InputTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/inputdecorator/LowerCaseInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/inputdecorator/text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/Program.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/CheesePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/ChicagoStyleCheesePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/ChicagoStylePepperoniPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/NYStyleCheesePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/NYStylePepperoniPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/PepperoniPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/common/pizzas/Pizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/factory/ChicagoStylePizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/factory/FPizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/factory/NYStylePizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/simplefactory/SFPizzaSrore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/simplefactory/SimplePizzaFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Decorator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Decorator/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/HouseBlend.java" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/HouseBlend.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/CondimentDecorator.java" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/CondimentDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/Mocha.java" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/Mocha.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/Soy.java" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/Soy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/Whip.java" afterPath="$PROJECT_DIR$/../Decorator/src/patterns/decorator/decorators/Whip.java" />
-    </list>
+    <list default="true" id="b30e5232-722b-47cb-a334-282986769f92" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
