@@ -1,6 +1,7 @@
 package patterns.decorator.decorators;
 
 import patterns.decorator.Beverage;
+import patterns.decorator.Size;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;
@@ -12,6 +13,11 @@ public class Mocha extends CondimentDecorator {
     @Override
     public String getDescription() {
         return beverage.getDescription() + ", Mocha";
+    }
+
+    @Override
+    public Size getSize() {
+        return beverage.getSize();
     }
 
     @Override
