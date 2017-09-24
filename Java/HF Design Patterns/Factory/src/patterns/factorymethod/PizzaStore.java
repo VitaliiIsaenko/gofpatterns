@@ -1,6 +1,6 @@
-package patterns.factory;
+package patterns.factorymethod;
 
-import patterns.factory.pizzas.Pizza;
+import patterns.factorymethod.pizzas.Pizza;
 
 public abstract class PizzaStore {
     public Pizza orderPizza(String type){

@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factorymethod;
 
 public class Program {
     public static void main(String[] args) {

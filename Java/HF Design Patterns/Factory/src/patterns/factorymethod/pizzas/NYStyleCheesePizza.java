@@ -1,4 +1,4 @@
-package patterns.factory.pizzas;
+package patterns.factorymethod.pizzas;
 
 public class NYStyleCheesePizza implements Pizza {
     @Override

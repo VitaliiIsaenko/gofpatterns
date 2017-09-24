@@ -5,13 +5,9 @@ import patterns.abstractfactory.pizzas.Pizza;
 public class Program {
     public static void main(String[] args) {
         PizzaStore pizzaStore = new NYPizzaStore();
-        Pizza pizza = pizzaStore.createPizza("cheese");
-        pizza.prepare();
-        pizza.box();
+        Pizza pizza = pizzaStore.orderPizza("cheese");
 
         pizzaStore = new ChicagoPizzaStore();
-        pizza = pizzaStore.createPizza("cheese");
-        pizza.prepare();
-        pizza.box();
+        pizza = pizzaStore.orderPizza("cheese");
     }
 }

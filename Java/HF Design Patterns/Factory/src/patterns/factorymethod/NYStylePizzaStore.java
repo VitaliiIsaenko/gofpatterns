@@ -1,6 +1,6 @@
-package patterns.factory;
+package patterns.factorymethod;
 
-import patterns.factory.pizzas.*;
+import patterns.factorymethod.pizzas.*;
 
 public class NYStylePizzaStore extends PizzaStore {
     @Override
