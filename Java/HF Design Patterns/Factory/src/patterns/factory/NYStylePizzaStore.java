@@ -1,10 +1,8 @@
 package patterns.factory;
 
-import patterns.common.pizzas.NYStyleCheesePizza;
-import patterns.common.pizzas.NYStylePepperoniPizza;
-import patterns.common.pizzas.Pizza;
+import patterns.factory.pizzas.*;
 
-public class NYStylePizzaStore extends FPizzaStore {
+public class NYStylePizzaStore extends PizzaStore {
     @Override
     protected Pizza createPizza(String type) {
         Pizza pizza = null;

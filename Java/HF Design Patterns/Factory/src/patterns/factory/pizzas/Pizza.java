@@ -1,4 +1,4 @@
-package patterns.common.pizzas;
+package patterns.factory.pizzas;
 
 public interface Pizza {
     void prepare();

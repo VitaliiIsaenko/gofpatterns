@@ -1,14 +1,12 @@
-package patterns.common.pizzas;
+package patterns.simplefactory.pizzas;
 
-public class ChicagoStyleCheesePizza implements Pizza {
+public class PepperoniPizza implements Pizza {
     @Override
     public void prepare() {
-
     }
 
     @Override
     public void bake() {
-
     }
 
     @Override
@@ -18,6 +16,6 @@ public class ChicagoStyleCheesePizza implements Pizza {
 
     @Override
     public void box() {
-        System.out.println("Chicago style cheese pizza is ready!");
+        System.out.println("Pepperoni pizza is ready!");
     }
 }

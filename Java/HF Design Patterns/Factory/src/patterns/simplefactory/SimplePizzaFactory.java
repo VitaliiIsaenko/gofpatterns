@@ -1,6 +1,8 @@
 package patterns.simplefactory;
 
-import patterns.common.pizzas.*;
+import patterns.simplefactory.pizzas.CheesePizza;
+import patterns.simplefactory.pizzas.PepperoniPizza;
+import patterns.simplefactory.pizzas.Pizza;
 
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {

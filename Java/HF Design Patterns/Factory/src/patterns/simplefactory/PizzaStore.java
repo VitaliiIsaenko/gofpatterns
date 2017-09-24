@@ -1,11 +1,11 @@
 package patterns.simplefactory;
 
-import patterns.common.pizzas.Pizza;
+import patterns.simplefactory.pizzas.Pizza;
 
-public class SFPizzaSrore {
+public class PizzaStore {
     private SimplePizzaFactory factory;
 
-    public SFPizzaSrore(SimplePizzaFactory simplePizzaFactory){
+    public PizzaStore(SimplePizzaFactory simplePizzaFactory){
         this.factory = simplePizzaFactory;
     }
 

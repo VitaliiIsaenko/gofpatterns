@@ -1,8 +1,8 @@
-package patterns.factory;
+package patterns.abstractfactory;
 
-import patterns.common.pizzas.Pizza;
+import patterns.abstractfactory.pizzas.Pizza;
 
-public abstract class FPizzaStore {
+public abstract class PizzaStore {
     public Pizza orderPizza(String type){
         Pizza pizza;
 
