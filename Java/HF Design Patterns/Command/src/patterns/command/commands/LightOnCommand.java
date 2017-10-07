@@ -1,9 +1,11 @@
-package patterns.command;
+package patterns.command.commands;
+
+import patterns.command.devices.Light;
 
 public class LightOnCommand implements Command {
     Light light;
 
-    public LightOnCommand(Light light){
+    public LightOnCommand(Light light) {
         this.light = light;
     }
 
