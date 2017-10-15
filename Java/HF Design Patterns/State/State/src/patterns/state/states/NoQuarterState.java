@@ -1,4 +1,7 @@
-package patterns.state;
+package patterns.state.states;
+
+import patterns.state.GumballMachine;
+import patterns.state.State;
 
 public class NoQuarterState implements State
 {
@@ -27,5 +30,10 @@ public class NoQuarterState implements State
     @Override
     public void dispense() {
         System.out.println("You need to pay first");
+    }
+
+    @Override
+    public void refill(int count){
+        System.out.println("No need to refill");
     }
 }

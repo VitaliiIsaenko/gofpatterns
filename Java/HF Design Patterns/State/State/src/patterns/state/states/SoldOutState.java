@@ -1,4 +1,7 @@
-package patterns.state;
+package patterns.state.states;
+
+import patterns.state.GumballMachine;
+import patterns.state.State;
 
 public class SoldOutState implements State {
     private GumballMachine gumballMachine;
@@ -25,5 +28,12 @@ public class SoldOutState implements State {
     @Override
     public void dispense() {
         System.out.println("There are no gumballs anymore");
+    }
+
+    @Override
+    public void refill(int count) {
+        System.out.println("Gumball machine fully refilled!");
+        gumballMachine.setCount(count);
+        gumballMachine.setState(gumballMachine.getNoQuarterState());
     }
 }

@@ -1,10 +1,16 @@
 package patterns.state;
 
+import patterns.state.states.HasQuarterState;
+import patterns.state.states.NoQuarterState;
+import patterns.state.states.SoldOutState;
+import patterns.state.states.SoldState;
+
 public class GumballMachine {
     private State soldOutState;
     private State noQuarterState;
     private State hasQuarterState;
     private State soldState;
+    private State winnerState;
 
     private State state = soldOutState;
     private int count;
@@ -66,5 +72,13 @@ public class GumballMachine {
 
     public State getSoldOutState() {
         return soldOutState;
+    }
+
+    public State getWinnerState() {
+        return winnerState;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 }
