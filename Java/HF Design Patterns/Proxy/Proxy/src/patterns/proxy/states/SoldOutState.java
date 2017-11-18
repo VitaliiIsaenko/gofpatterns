@@ -4,7 +4,7 @@ import patterns.proxy.GumballMachine;
 import patterns.proxy.State;
 
 public class SoldOutState implements State {
-    private GumballMachine gumballMachine;
+    transient private GumballMachine gumballMachine;
 
     public SoldOutState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;

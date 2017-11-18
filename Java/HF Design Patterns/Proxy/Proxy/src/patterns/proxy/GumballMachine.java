@@ -2,7 +2,12 @@ package patterns.proxy;
 
 import patterns.proxy.states.*;
 
-public class GumballMachine {
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class GumballMachine
+    extends UnicastRemoteObject implements GumballMachineRemote
+{
     private String location;
 
     private State soldOutState;
@@ -14,7 +19,7 @@ public class GumballMachine {
     private State state = soldOutState;
     private int count;
 
-    public GumballMachine(String location, int numberOfGumballs){
+    public GumballMachine(String location, int numberOfGumballs) throws RemoteException{
         this.location = location;
 
         soldOutState = new SoldOutState(this);

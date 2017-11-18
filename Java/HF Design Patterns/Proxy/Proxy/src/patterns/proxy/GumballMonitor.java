@@ -1,15 +1,21 @@
 package patterns.proxy;
 
-public class GumballMonitor {
-    private GumballMachine gumballMachine;
+import java.rmi.RemoteException;
 
-    public GumballMonitor(GumballMachine gumballMachine){
-        this.gumballMachine = gumballMachine;
+public class GumballMonitor {
+    private GumballMachineRemote gumballMachineRemote;
+
+    public GumballMonitor(GumballMachineRemote gumballMachineRemote){
+        this.gumballMachineRemote = gumballMachineRemote;
     }
 
     public void report() {
-        System.out.println(gumballMachine.getLocation());
-        System.out.println(gumballMachine.getCount());
-        System.out.println(gumballMachine.getState());
+        try {
+            System.out.println(gumballMachineRemote.getLocation());
+            System.out.println(gumballMachineRemote.getCount());
+            System.out.println(gumballMachineRemote.getState());
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
     }
 }

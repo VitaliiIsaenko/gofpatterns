@@ -6,7 +6,7 @@ import patterns.proxy.State;
 import java.util.Random;
 
 public class HasQuarterState implements State {
-    private GumballMachine gumballMachine;
+    transient private GumballMachine gumballMachine;
     Random randomWinner = new Random(System.currentTimeMillis());
 
     public HasQuarterState(GumballMachine gumballMachine) {
