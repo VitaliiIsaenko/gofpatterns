@@ -35,6 +35,15 @@ namespace CafeTest
 
         [Fact]
         public void GetHotDrinkPrice(){
+            //Arrange
+            BestCafe cafe = new BestCafe();
+            IHotDrink cappuccino = cafe.GetCapuccino();
+
+            //Action
+            double hotDrinkPrice = cappuccino.CalculatePrice();
+
+            //Assert
+            Assert.Equal(hotDrinkPrice, 3.50d);
 
         }
     }
