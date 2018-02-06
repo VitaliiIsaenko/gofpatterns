@@ -1,7 +1,5 @@
-namespace AbstractFactory.Ingredients
-{
-    public interface ICheese
-    {
-        string GetName();
+namespace AbstractFactory.Ingredients {
+    public interface ICheese {
+        string GetName ();
     }
 }
