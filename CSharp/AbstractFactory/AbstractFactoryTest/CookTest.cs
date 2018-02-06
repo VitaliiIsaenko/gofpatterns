@@ -11,14 +11,14 @@ namespace AbstractFactoryTest
         public void PrepareMargaritaPizza()
         {
             //Arrange
-            Cook cook = new Cook();
             IPizzaRecipe margaritaRecipe = new MargaritaRecipe();
-
-            //Action
-            IPizza pizza = cook.preparePizza(margaritaRecipe);
+            Pizza pizza = new Pizza(margaritaRecipe);
             
+            //Action
+            var allIngredientsActual = pizza.GetAllIngredients();
+
             //Assert
-            Assert.Equal(pizza.getAllIngredients, "Margarita cheese");
+            Assert.Equal("Margarita cheese", allIngredientsActual);
         }
 
 
