@@ -1,8 +1,10 @@
 namespace Cafe
 {
-    internal class Capuccino : IHotDrink
+    internal class Cappuccino : IHotDrink
     {
         public string Name => "Cappuccino";
+
+        public string Description => Name;
 
         public double CalculatePrice()
         {
