@@ -5,7 +5,7 @@ using AbstractFactory;
 
 namespace AbstractFactoryTest
 {
-    public class CookTest   
+    public class PizzaTest   
     {
         [Fact]
         public void PrepareMargaritaPizza()
