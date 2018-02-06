@@ -7,7 +7,7 @@ namespace CafeTest
     public class CafeTest
     {
         [Fact]
-        public void GetLatteTest()
+        public void GetLatte()
         {
             //Arrange
             BestCafe cafe = new BestCafe();
@@ -18,6 +18,24 @@ namespace CafeTest
 
             //Assert
             Assert.Equal(hotDrinkName, "Latte");
+        }
+
+        [Fact] 
+        public void GetCapuccino(){
+            //Arrange 
+            BestCafe cafe = new BestCafe();
+
+            //Action
+            IHotDrink capuccino = cafe.GetCapuccino();
+            string hotDrinkName = capuccino.Name;
+
+            //Assert
+            Assert.Equal(hotDrinkName, "Cappuccino");
+        }
+
+        [Fact]
+        public void GetHotDrinkPrice(){
+
         }
     }
 }

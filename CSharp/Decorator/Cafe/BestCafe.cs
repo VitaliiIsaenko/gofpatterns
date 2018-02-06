@@ -8,5 +8,10 @@ namespace Cafe
         {
             return new Latte();
         }
+
+        public IHotDrink GetCapuccino()
+        {
+            return new Capuccino();
+        }
     }
 }
