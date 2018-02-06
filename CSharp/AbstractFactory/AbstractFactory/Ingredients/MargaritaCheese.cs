@@ -1,4 +1,4 @@
-namespace AbstractFactory {
+namespace AbstractFactory.Ingredients {
     public class MargaritaCheese : ICheese
     {
         public string GetName()

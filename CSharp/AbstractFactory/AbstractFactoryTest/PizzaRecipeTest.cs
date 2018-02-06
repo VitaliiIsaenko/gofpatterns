@@ -1,5 +1,5 @@
 using Xunit;
-using AbstractFactory;
+using AbstractFactory.Ingredients;
 
 
 namespace AbstractFactoryTest {

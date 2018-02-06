@@ -1,4 +1,4 @@
-namespace AbstractFactory
+namespace AbstractFactory.Ingredients
 {
     internal class PepperoniCheese : ICheese
     {

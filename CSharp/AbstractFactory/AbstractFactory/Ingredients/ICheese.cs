@@ -1,4 +1,4 @@
-namespace AbstractFactory
+namespace AbstractFactory.Ingredients
 {
     public interface ICheese
     {
