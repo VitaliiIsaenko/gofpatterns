@@ -2,49 +2,33 @@ using System;
 using Cafe;
 using Xunit;
 
-namespace CafeTest
-{
-    public class CafeTest
-    {
+namespace CafeTest {
+    public class CafeTest {
         [Fact]
-        public void GetLatte()
-        {
+        public void GetLatte () {
             //Arrange
-            BestCafe cafe = new BestCafe();
+            BestCafe cafe = new BestCafe ();
 
             //Action
-            IHotDrink latte = cafe.GetLatte();
+            IHotDrink latte = cafe.GetLatte ();
             string hotDrinkName = latte.Name;
 
             //Assert
-            Assert.Equal(hotDrinkName, "Latte");
-        }
-
-        [Fact] 
-        public void GetCapuccino(){
-            //Arrange 
-            BestCafe cafe = new BestCafe();
-
-            //Action
-            IHotDrink capuccino = cafe.GetCapuccino();
-            string hotDrinkName = capuccino.Name;
-
-            //Assert
-            Assert.Equal(hotDrinkName, "Cappuccino");
+            Assert.Equal ("Latte",hotDrinkName);
         }
 
         [Fact]
-        public void GetHotDrinkPrice(){
-            //Arrange
-            BestCafe cafe = new BestCafe();
-            IHotDrink cappuccino = cafe.GetCapuccino();
+        public void GetCapuccino () {
+            //Arrange 
+            BestCafe cafe = new BestCafe ();
 
             //Action
-            double hotDrinkPrice = cappuccino.CalculatePrice();
+            IHotDrink capuccino = cafe.GetCapuccino ();
+            string hotDrinkName = capuccino.Name;
 
             //Assert
-            Assert.Equal(hotDrinkPrice, 3.50d);
-
+            Assert.Equal ("Cappuccino",hotDrinkName);
         }
+
     }
 }
