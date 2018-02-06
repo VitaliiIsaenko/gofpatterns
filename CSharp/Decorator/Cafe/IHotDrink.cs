@@ -1,7 +1,7 @@
 namespace Cafe
 {
-    public class IHotDrink
+    public interface IHotDrink
     {
-        string Name {get;}
+        string Name{get;}
     }
 }

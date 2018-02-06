@@ -1,4 +1,5 @@
 using System;
+using Cafe;
 using Xunit;
 
 namespace CafeTest
