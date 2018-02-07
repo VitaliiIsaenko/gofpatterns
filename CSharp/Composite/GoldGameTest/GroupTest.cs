@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using GoldGame;
 using Xunit;
 
@@ -9,7 +10,8 @@ namespace GoldGameTest
         [Fact]
         public void GetGroupGold() {
             //Arrange
-            IParty group = new Group("Best group");
+            Group group = new Group("Best group");
+            group.Members = new List<IParty>() {new Person("bob"), new Person("Carl")};
             group.Gold = 1000;
 
             //Action
