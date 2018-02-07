@@ -11,7 +11,7 @@ namespace GoldGameTest
         public void GetPersonGold()
         {
             //Arrange
-            IParty bob = new Person("Bob");
+            Person bob = new Person("Bob");
             bob.Gold = 1500;
 
             //Action
