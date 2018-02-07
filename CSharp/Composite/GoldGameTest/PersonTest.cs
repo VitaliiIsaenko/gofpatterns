@@ -12,8 +12,7 @@ namespace GoldGameTest
         {
             //Arrange
             IParty bob = new Person("Bob");
-            IList<IParty> parties = new List() {bob};
-            parties.Gold = 1500;
+            bob.Gold = 1500;
 
             //Action
             int bobGold = bob.Gold;
