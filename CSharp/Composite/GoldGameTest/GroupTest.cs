@@ -1,3 +1,6 @@
+using GoldGame;
+using Xunit;
+
 namespace GoldGameTest
 {
     public class GroupTest
